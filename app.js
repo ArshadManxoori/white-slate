@@ -15,7 +15,7 @@ const app = express();  //application initiallize and sever ready
 
 app.use(express.static("public"));  //it will display the index.html from public folder
 
-let port = 5000;    //5000, 8080 , to use in device we just ue 5000, when we deploy it in heroku it will create it self
+let port = process.env.PORT ||  5000;    //5000, 8080 , to use in device we just ue 5000, when we deploy it in heroku it will create it self
 let server = app.listen(port, () => {    //make sever to ready to work
     console.log("Listening to port" + port);
 })    
