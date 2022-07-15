@@ -62,8 +62,35 @@ img {
 .pencil{
     height: 80%;
     display: flex;
-    align-items: center;
+    margin-top: 0.5rem;
 }
+.eraser{
+    height: 80%;
+    display: flex;
+    margin-top: 0.5rem;
+}
+.upload{
+    height: 85%;
+    display: flex;
+    margin-top: 0.5rem;
+}
+.sticky{
+    height: 78%;
+    display: flex;
+    margin-top: 0.5rem;
+}
+.undo{
+    height: 80%;
+    display: flex;
+    margin-top: 0.5rem;
+}
+.redo{
+    height: 80%;
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+
 
 .pencil-tool-cont{
     background-color: #f1f2f6;
